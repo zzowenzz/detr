@@ -38,7 +38,7 @@ from scipy.optimize import linear_sum_assignment
 from owen_data import build, collate_fn
 from owen_model import build_backbone, build_transformer, DETR
 # from owen_criterion import build_matcher, SetCriterion, reduce_dict
-from det_loss import build_matcher, SetCriterion, reduce_dict
+from owen_loss import build_matcher, SetCriterion, reduce_dict
 
 
 def main(args):
